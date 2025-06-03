@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The TrioTone</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="logo">The TrioTone</h1>
+    <nav class="nav-links">
+      <a href="#" onclick="navigate('home')">Start</a>
+      <a href="#" onclick="navigate('about')">Band</a>
+      <a href="#" onclick="navigate('contact')">Reach Out</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section id="home" class="container text-center page">
+      <h2 class="title">Feel the Pulse of TrioTone</h2>
+      <p class="subtitle">Three musicians. One sound. Infinite vibes.</p>
+      <div class="card">
+        <div class="card-content">
+          <p>Fresh tracks, upcoming shows, behind the scenes & more.</p>
+          <button class="button">Explore Tracks</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container page" style="display: none;">
+      <h2 class="section-title">Who We Are</h2>
+      <p>TrioTone blends rhythm, soul, and electronic edge in a unique sonic fusion.</p>
+      <ul class="list">
+        <li><strong>Jamie</strong> — Vox & Guitar</li>
+        <li><strong>Riley</strong> — Percussion</li>
+        <li><strong>Drew</strong> — Bassline & Synthscape</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container page" style="display: none;">
+      <h2 class="section-title">Let's Talk</h2>
+      <form class="form" onsubmit="handleSubmit(event)">
+        <input type="text" placeholder="Name" class="input" required />
+        <input type="email" placeholder="Email" class="input" required />
+        <textarea placeholder="Message" class="textarea" required></textarea>
+        <button type="submit" class="button">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">© 2025 TrioTone. Music for the bold.</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
