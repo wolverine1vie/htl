@@ -50,6 +50,14 @@ body {
   margin: 1rem auto;
   max-width: 500px;
 }
+.bioheader{
+  text-align: center;
+    font-size: 2rem;
+}
+.biotext{
+  text-align: center;
+    font-size: 2rem;
+}
 
 .card-content {
   margin-bottom: 1rem;
