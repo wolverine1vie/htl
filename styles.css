@@ -27,6 +27,7 @@ body {
 
 .container {
   padding: 2rem;
+  background-color: cornflowerblue;
 }
 
 .text-center {
@@ -53,10 +54,11 @@ body {
 .bioheader{
   text-align: center;
     font-size: 2rem;
+    font-weight:bold;
 }
 .biotext{
-  text-align: center;
-    font-size: 2rem;
+  text-align: left;
+    font-size: 1.rem;
 }
 
 .card-content {
