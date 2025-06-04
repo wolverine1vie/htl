@@ -76,11 +76,12 @@ body {
   cursor: pointer;
 }
 
-.section-title {
+.section-title {  
   font-size: 1.8rem;
   margin-bottom: 1rem;
   font-weight:900;
-  color: #ff5733;
+  color: #ff5733;  
+  text-align: center;
 }
 
 .list {
