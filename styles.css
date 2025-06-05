@@ -66,6 +66,18 @@ body {
   font-size: 1.rem;
   color: black;
 }
+ .biopic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;  
+  }
+
+  .biopic img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 
 .card-content {
   margin-bottom: 1rem;
